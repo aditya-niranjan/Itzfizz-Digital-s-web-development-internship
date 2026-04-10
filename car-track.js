@@ -35,7 +35,7 @@ const tl = gsap.timeline({
 
 // Main animation
 tl.to(car, {
-  x: () => window.innerWidth * -0.95,
+  x: () => window.innerWidth * 0.95,
   duration: 10,
   ease: "none"
 })
